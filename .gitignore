@@ -1,0 +1,6 @@
+storage/
+node_modules/
+.vscode/
+http_ca.crt
+.env
+out/
