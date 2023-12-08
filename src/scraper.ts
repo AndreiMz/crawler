@@ -1,7 +1,7 @@
 
 import fs from 'fs';
 import csv from 'csv-parser';
-import { RequestQueue, CheerioCrawler, enqueueLinks, Dictionary, PlaywrightBrowser, PlaywrightCrawler } from "crawlee";
+import { RequestQueue, PlaywrightCrawler } from "crawlee";
 import {isPossiblePhoneNumber, isValidPhoneNumber, validatePhoneNumberLength} from 'libphonenumber-js';
 import * as EmailValidator from 'email-validator';
 
@@ -107,6 +107,9 @@ const ScrapeWebsites = async () => {
                 }
     
                 if(isPossiblePhoneNumber(e) && isValidPhoneNumber(e)){
+
+                    // TO-DO: normalize by removing non numerical characters
+                    // keep this "formatted" number for display purposes
                     result[domain]["numbers"].add(e)
                 }
             })

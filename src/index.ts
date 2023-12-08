@@ -1,7 +1,4 @@
-import ScrapeWebsites from "./scraper"
 import fs from 'fs';
-import csv from 'csv-parser';
-import {isPossiblePhoneNumber, isValidPhoneNumber, validatePhoneNumberLength} from 'libphonenumber-js';
 import { Client } from '@elastic/elasticsearch'
 import express from 'express'
 import dotenv from 'dotenv'
@@ -21,9 +18,16 @@ declare global {
     }
 }
 
+interface QueryMessage {
+    name: string,
+    website: string,
+    facebook: string,
+    phone: string
+}
+
 
 const client = new Client({
-    node: ELASTIC_SEARCH_NODE,
+    node: process.env.ELASTIC_SEARCH_NODE,
     auth: {
         username: process.env.ELASTIC_SEARCH_USERNAME ,
         password: process.env.ELASTIC_SEARCH_PASSWORD ,
@@ -35,17 +39,10 @@ const client = new Client({
 })
 
 
-
 const app = express();
 app.use(express.json())
 const port = process.env.PORT;
 
-interface QueryMessage {
-    name: string,
-    website: string,
-    facebook: string,
-    phone: string
-}
 
 app.post('/api/search', async (req, res) => {
     const queryData: QueryMessage = req.body;

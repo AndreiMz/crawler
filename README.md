@@ -37,6 +37,18 @@ Some websites do not load the whole content on the first request, they make addi
 
 From a scaling perspective, I would choose the second option with paralellisation on multiple machines that share a common data point to feed into.
 Due to real life time constraints, I didn't manage to actually get the optimal speed.
+TBD improvements in data acquisition:
+* improve data quality, remove garbage data
+* speed it up
+* find efficient way to generally distinguish address syntax from other data
+* normalize and sanitize data
 
 Runtimes:
 Playwright 1921514ms ~ 30m
+
+
+## Search Algorithm 
+The search "algorithm" is just a composite query for the ElasticSearch endpoint.
+Definitely needs improvements, like:
+* data should be cleaned up, normalized (ex: phone numbers should be normalized without any non-numeric characters)
+* take into account when multiple matches occur, to have a best match option 
