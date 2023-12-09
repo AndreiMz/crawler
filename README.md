@@ -3,6 +3,18 @@
 * Node installed
 * An elastic search server
 
+## Results
+1. Total Websites - 997
+2. Websites where phone numbers were found - 80 
+3. Websites where emails were found - 403 
+4. Websites where social media was found - 390
+
+### Extra info per website (data is mean for websites where data is available)
+* Mean number of social media found (outliers removed in calculation) - 2.743
+* Mean number of emails found - 1.513
+* Mean number of phone numbers found - 1.1392
+
+
 ## Loading everything
 Need an improvement here, but the steps are:
 * npm i 

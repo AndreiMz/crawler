@@ -1,0 +1,126 @@
+<mxfile host="app.diagrams.net" modified="2023-12-09T12:08:05.771Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:120.0) Gecko/20100101 Firefox/120.0" etag="AaZChBngMZZ1UDAk0blV" version="22.1.7" type="device">
+  <diagram name="Page-1" id="zjkon3Gy9zB6OCE1X0he">
+    <mxGraphModel dx="2074" dy="1142" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="850" pageHeight="1100" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-4" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-1" target="0xbiTfe2y1X39nVAZDRC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-22" value="POST /api/search" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xbiTfe2y1X39nVAZDRC-4">
+          <mxGeometry x="-0.0705" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-1" value="&lt;div&gt;User&lt;/div&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="40" y="440.5" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-5" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-2" target="0xbiTfe2y1X39nVAZDRC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-21" value="Optimized Query" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xbiTfe2y1X39nVAZDRC-5">
+          <mxGeometry x="-0.0017" y="-2" relative="1" as="geometry">
+            <mxPoint x="-1" y="1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-2" value="&lt;div&gt;Web Api&lt;/div&gt;&lt;div&gt;(Search Function)&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="440.5" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-25" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-3" target="0xbiTfe2y1X39nVAZDRC-2">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-26" value="Results" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xbiTfe2y1X39nVAZDRC-25">
+          <mxGeometry x="-0.1672" y="2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-3" value="&lt;div&gt;ElasticSearch&lt;/div&gt;&lt;div&gt;Service&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.elasticsearch_service;fillColor=#F58534;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="526.25" y="430" width="67.5" height="81" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-10" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-6" target="0xbiTfe2y1X39nVAZDRC-9">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-11" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-6" target="0xbiTfe2y1X39nVAZDRC-13">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="540" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-12" value="Raw Html" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xbiTfe2y1X39nVAZDRC-11">
+          <mxGeometry x="-0.0036" y="3" relative="1" as="geometry">
+            <mxPoint x="-2" y="-3" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-6" value="&lt;div&gt;Crawler&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="200" y="210" width="160" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-8" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-7" target="0xbiTfe2y1X39nVAZDRC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-7" value="Job Scheduler" style="sketch=0;html=1;dashed=0;whitespace=wrap;fillColor=#2875E2;strokeColor=#ffffff;points=[[0.005,0.63,0],[0.1,0.2,0],[0.9,0.2,0],[0.5,0,0],[0.995,0.63,0],[0.72,0.99,0],[0.5,1,0],[0.28,0.99,0]];verticalLabelPosition=bottom;align=center;verticalAlign=top;shape=mxgraph.kubernetes.icon;prIcon=job" vertex="1" parent="1">
+          <mxGeometry x="255" y="30" width="50" height="50" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-9" value="&lt;div&gt;Website&lt;/div&gt;&lt;div&gt;Targets&lt;br&gt;&lt;/div&gt;" style="ellipse;shape=cloud;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="50" y="200" width="120" height="80" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-14" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-13" target="0xbiTfe2y1X39nVAZDRC-6">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-15" value="Pages to crawl" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xbiTfe2y1X39nVAZDRC-14">
+          <mxGeometry x="0.1875" y="5" relative="1" as="geometry">
+            <mxPoint x="15" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-17" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-13" target="0xbiTfe2y1X39nVAZDRC-3">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-18" value="&lt;div&gt;Update Records&lt;/div&gt;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xbiTfe2y1X39nVAZDRC-17">
+          <mxGeometry x="0.0921" y="3" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-33" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.25;exitDx=0;exitDy=0;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-13" target="0xbiTfe2y1X39nVAZDRC-32">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-35" value="Normalised Data" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xbiTfe2y1X39nVAZDRC-33">
+          <mxGeometry x="-0.4326" y="4" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-13" value="&lt;div&gt;Data &lt;br&gt;&lt;/div&gt;&lt;div&gt;Processing&lt;br&gt;&lt;/div&gt;" style="shape=process;whiteSpace=wrap;html=1;backgroundOutline=1;" vertex="1" parent="1">
+          <mxGeometry x="500" y="210" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-19" value="&lt;h1&gt;Data Processing&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- extract relevant data&lt;/p&gt;&lt;p&gt;- normalize resulting data&lt;/p&gt;&lt;p&gt;- clean garbage/unusable data&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="560" y="70" width="240" height="130" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-27" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.75;exitDx=0;exitDy=0;entryX=1;entryY=1;entryDx=0;entryDy=0;entryPerimeter=0;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-2" target="0xbiTfe2y1X39nVAZDRC-1">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-28" value="Results" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xbiTfe2y1X39nVAZDRC-27">
+          <mxGeometry x="0.3073" y="-2" relative="1" as="geometry">
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-29" value="&lt;h1&gt;Web API&lt;br&gt;&lt;/h1&gt;&lt;p&gt;- should normalize data using the same algorithms that are used in data processing&lt;/p&gt;&lt;p&gt;- provide some sort of security features (token auth etc)&lt;br&gt;&lt;/p&gt;" style="text;html=1;strokeColor=none;fillColor=none;spacing=5;spacingTop=-20;whiteSpace=wrap;overflow=hidden;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="210" y="520" width="220" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-30" value="&lt;div&gt;Note:&lt;/div&gt;&lt;div&gt;Data should be normalised,&lt;/div&gt;&lt;div&gt;however during storage there should&lt;/div&gt;&lt;div&gt;be a&amp;nbsp; &quot;display friendly&quot; value. &lt;br&gt;&lt;/div&gt;&lt;div&gt;ex: remove from phone numbers non&lt;/div&gt;&lt;div&gt;numerical characters, but keep them&lt;/div&gt;&lt;div&gt;for display purposes&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="760" y="70" width="230" height="110" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-31" value="&lt;div&gt;Data crawling should have a recurrence&lt;/div&gt;&lt;div&gt;to it, so that if details are updated, data&lt;/div&gt;&lt;div&gt;is kept fresh.&lt;br&gt;&lt;/div&gt;" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+          <mxGeometry x="310" y="25" width="240" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-34" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0;exitY=0.79;exitDx=0;exitDy=0;exitPerimeter=0;entryX=1;entryY=0.75;entryDx=0;entryDy=0;" edge="1" parent="1" source="0xbiTfe2y1X39nVAZDRC-32" target="0xbiTfe2y1X39nVAZDRC-13">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-36" value="Extracted Tokens" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];" vertex="1" connectable="0" parent="0xbiTfe2y1X39nVAZDRC-34">
+          <mxGeometry x="0.446" y="2" relative="1" as="geometry">
+            <mxPoint x="-1" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="0xbiTfe2y1X39nVAZDRC-32" value="&lt;div&gt;NLP Model&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" style="outlineConnect=0;dashed=0;verticalLabelPosition=bottom;verticalAlign=top;align=center;html=1;shape=mxgraph.aws3.machine_learning;fillColor=#2E73B8;gradientColor=none;" vertex="1" parent="1">
+          <mxGeometry x="890" y="193.5" width="76.5" height="93" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
