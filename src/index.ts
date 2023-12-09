@@ -49,7 +49,6 @@ app.post('/api/search', async (req, res) => {
     const queryTerms: QueryDslQueryContainer[] = []
 
     if(queryData.name !== undefined) {
-        console.log("name is not undefined")
         queryTerms.push({
             match: {
                 company_all_available_names: queryData.name

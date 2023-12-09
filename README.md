@@ -40,7 +40,7 @@ Due to real life time constraints, I didn't manage to actually get the optimal s
 TBD improvements in data acquisition:
 * improve data quality, remove garbage data
 * speed it up
-* find efficient way to generally distinguish address syntax from other data
+* get address data set and train a NLP model to extract from html text addresses
 * normalize and sanitize data
 
 Runtimes:
